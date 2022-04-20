@@ -1,0 +1,114 @@
+Logon: 
+
+http://cloud.ucc.ovgu.de/gui/H1043.xml
+Nutzername: 1422_BAL-006
+Passwort: wie immer
+
+
+	- Schulungsportal in SAP
+		○ IDES - International Demonstration Evaluation (Education) System
+	- ERP System
+		○ Logistik, Rechnungswesen, Personal
+	- R/1 (R/2) 1. Generation
+	- R/3 (Realtime 3. Generation)
+		○ Externe und interne Prozesse steuern
+		○ 90er
+	-----------------------------ab 2000
+	- Systeme
+		○ ERP 2004
+		○ ERP 2005 (bis heute)
+			§ ERP 6.0, ECC 6.0, EhP 8.0
+	-----------------------------
+	- S4 HANA (mit SAP eigenen Datenbank)
+	
+	
+	----------------------------------------------
+	- Produktivmandanten
+	- Testmandanten
+	- Entwicklungsmandanten
+
+Schnellanmeldung: Rechtklick -> Neu -> SAP-Verknüpfung
+	- Transaction: Session_Manager
+	- System Description: SAP S/4HANA…
+	- Client: 200
+	- User: 1422_BAL-006
+
+Transaktion suchen:
+	- Lupe oben links
+	- (nur im technischen Namen suchen) -> sonst zu viele Ergebnisse
+	- Oder:
+		○ Search_sap_menu:
+			§ Liste mit Einträgen
+	
+
+SAP-Standard: 6 Modi (GUI-Fenster)(vom Admin veränderbar)
+
+	- Layout von Tabellen ändern:
+		○ Viereck-Symbol (Layout ändern)
+		○ Kriterien hin und her verschieben
+	- Tabellen exportieren:
+		○ Lokale Datei (2 Zettel (weiß und grün))
+		○ Format wählen (Word = Rich Text Format)
+Steuer:
+	- Details: Steuer rechnen
+	- Anklicken -> F1 -> Technische Information -> Parameter-ID
+
+Favoriten:
+	- Mehr -> Favoriten -> Download auf PC (Speichern)
+	- Mehr -> Favoriten -> Upload from PC (Favoriten hochladen)
+
+
+Eigene Daten:
+	- System -> Benutzervorgaben -> Benutzerdaten ->
+	Suche:
+		○ *Suchname* 
+		○ Stern * sucht Ergebnisse mit Suchname enthalten
+	
+
+
+Drucken:
+	- Ausgabegerät: locl (Lokale Druckerkennung für eigene Datenbank)
+	- Eigenschaften -> Spoolaufträge -> Titel
+
+Pfeil unten rechts:
+	- M54 -> System-ID
+	- (1) -> Modus-ID
+	- 200 -> Mandant
+
+Spoolaufträge:
+	- System -> Eigene Spoolaufträge
+
+
+	- Programm se16
+		○ --> TSTCT  --> Anzahl der Einträge
+
+	- SAP ABAP Programmiersprache
+
+	- Zusätze --> Einstellung --> Technische Namen anzeigen
+	- Werkzeuge -> Customizing -> IMG -> Projektverwaltung -> SAP Referenz-IMG
+	- Unten rechts (Pfeil) OVR --- INS (Overwrite(Überschreibmodus) --- Insert(Einfügemodus))
+
+	- Belegnummer: 100000021
+
+	- Grün - Erfolgsmeldung
+	- Gelb - Warnmeldung
+	- Rot - Fehlermeldung
+	2. Zeile letztes Zeichen (Lok. Layout anpassen) --> Optionen -> Interaktionsdesign -> Benachrichtigungen -> Meldungen (Erfolgs-, Warn-, und Fehlermeldungen)
+	
+
+Programmierung:
+	- Programm aktivieren:
+		○ Speichern
+		○ Aktivieren
+
+SAP:
+	- Name: Systeme, Anwendungen, Produkte
+
+Prüfung/Zertifizierung:
+	- 
+	
+Steuerung
+	- STRG + F1 --> Refresh
+	- F1 --> Feldhilfe --> Hammer & Schraubenschlüssel = Technische Infos
+	- F4 --> Erweiterte Befehlshilfe
+	- /i(Nummer) -> schließt bestimmtes Gui-Fenster
